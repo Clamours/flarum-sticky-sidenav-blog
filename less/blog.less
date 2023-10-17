@@ -2,20 +2,18 @@
     .FlarumBlog-Article-Sidebar {
         position: sticky;
         top: 70px;
-
-        // 为了防止内容超出视口，你可能想设置一个最大高度并允许滚动
         max-height: 90vh;
         overflow-y: auto;
 
-        // 添加滚动条样式，与之前的代码相似
+        // WebKit(Chrome & Safari)
         &::-webkit-scrollbar {
-            width: 5px;
-            background-color: #e0e0e0;
+            display: none;
         }
 
-        &::-webkit-scrollbar-thumb {
-            background: #9e9e9e;
-            border-radius: 5px;
-        }
+        // Firefox
+        scrollbar-width: none;
+
+        // IE/Edge
+        -ms-overflow-style: none;
     }
 }
