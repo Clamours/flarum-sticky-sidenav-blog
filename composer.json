@@ -1,0 +1,53 @@
+{
+    "name": "clamours/sticky-sidenav-blog",
+    "description": "Make the blog sidebar section sticky and scrollable.",
+    "keywords": [
+        "flarum",
+        "sticky",
+        "sidenav",
+        "blog"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "clamours",
+            "email": "clamours@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Sticky Sidenav Blog",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-map-pin",
+                "color": "#fff",
+                "backgroundColor": "#f28326"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": true,
+                "js": false,
+                "jsCommon": false,
+                "css": true,
+                "locale": false,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
