@@ -1,8 +1,8 @@
 # Sticky Sidenav Blog
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/ecnu-im/sticky-sidenav.svg)](https://packagist.org/packages/ecnu-im/sticky-sidenav) [![Total Downloads](https://img.shields.io/packagist/dt/ecnu-im/sticky-sidenav.svg)](https://packagist.org/packages/ecnu-im/sticky-sidenav)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/clamours/sticky-sidenav-blog.svg)](https://packagist.org/packages/clamours/sticky-sidenav-blog) [![Total Downloads](https://img.shields.io/packagist/dt/clamours/sticky-sidenav-blog.svg)](https://packagist.org/packages/clamours/sticky-sidenav-blog)
 
-A [Flarum](http://flarum.org)  extension. Make the [Blog]([http://flarum.org](https://github.com/v17development/flarum-blog)) sidebar section sticky and scrollable.
+A [Flarum](http://flarum.org)  extension. Make the [Blog](https://github.com/v17development/flarum-blog) sidebar section sticky and scrollable.
 
 ## Motivation
 
