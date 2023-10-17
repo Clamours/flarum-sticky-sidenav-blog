@@ -1,11 +1,11 @@
 <?php
 
 /*
- * This file is part of ecnu-im/sticky-sidenav.
+ * This file is part of clamours/sticky-sidenav-blog.
  *
- * Copyright (c) 2022 merc.
+ * Copyright (c) 2023 Clamours.
  *
- * For the full copyright and license information, please view the LICENSE.md
+ * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
